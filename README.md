@@ -15,12 +15,14 @@
    bash
    git clone [https://github.com/lminformcorp/Bunny-Garden-2-MoneyEdit](https://github.com/lminformcorp/Bunny-Garden-2-MoneyEdit)
    cd Bunny-Garden-2-MoneyEdit
-   安裝必要套件：
    
-2. Bash
-pip install -r requirements.txt
+   
+2. 安裝必要套件：
+	Bash
+	pip install -r requirements.txt
 
 🚀 使用方法
+
 以管理員權限執行 程式（修改記憶體需要此權限）。
 
 Bash
