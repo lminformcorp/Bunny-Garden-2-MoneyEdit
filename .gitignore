@@ -1,0 +1,14 @@
+# Python 產生檔案
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 環境檔案
+.venv/
+env/
+venv/
+ENV/
+
+# 編輯器設定
+.vscode/
+.idea/
