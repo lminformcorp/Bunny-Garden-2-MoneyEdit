@@ -47,7 +47,7 @@ class FileSelectTrainer(QWidget):
         threading.Thread(target=self.auto_attach_loop, daemon=True).start()
 
     def init_ui(self):
-        self.setWindowTitle("兔兔秘密花園 2 - 檔案選取修改器")
+        self.setWindowTitle("兔兔秘密花園 2 - 金錢修改器")
         self.setFixedSize(450, 350)
         layout = QVBoxLayout()
 
@@ -140,7 +140,7 @@ class FileSelectTrainer(QWidget):
             self.found_addresses = []
             self.signals.update.emit("深度掃描記憶體中...", "orange")
             
-            # 使用 Windows API 遍歷，解決圖片中 list_mer 報錯問題
+            # 使用 Windows API 遍歷
             base_address = 0
             max_address = 0x7FFFFFFFFFFF
             while base_address < max_address:
